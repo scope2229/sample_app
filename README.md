@@ -1,13 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on rails tutorial Sample_app
 
-Things you may want to cover:
+Ruby version 2.2.2
 
-* Ruby version
+Check gemfile.lock for list of gems installed 
 
-* System dependencies
+
+
+
+
+To be updated at a later date thank you and have a nice day!
 
 * Configuration
 
