@@ -1,5 +1,5 @@
-<% provide(:title, "Contact") %>
-	<h1> Micro-Blog | <%=yield(:title)%> </h1>
+
+<h1> <%= full_title(yield(:page_title)) + " " + '|' + " " + "Contact" %> </h1>
 	<p> 
 		To contact the author of the tutorial please goto <a href="http://www.railstutorial.com/">Rails tutorial</a>
 

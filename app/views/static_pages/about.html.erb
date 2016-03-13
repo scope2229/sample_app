@@ -1,5 +1,4 @@
-<% provide(:title, "About") %>
-	<h1> Micro-Blog | <%=yield(:title)%> </h1>
+	<h1> <%= full_title(yield(:page_title)) + " " + '|' + " " + "About" %> </h1>
 	<p> 
 		This Micro-Blog was created using the <a href="http://www.railstutorial.org/book">Tutorial pdf book</a>
 

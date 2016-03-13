@@ -1,5 +1,5 @@
-<% provide(:title, "Help") %>
-	<h1> Micro-Blog | <%= yield(:title) %> </h1>
+
+	<h1> <%= full_title(yield(:page_title)) + " " + '|' + " " + "Help" %> </h1>
 	<p> 
 		Get help with this Tutorial at <a href="https://www.railstutorial.org/help">Rails Tutorial help section</a>
 
